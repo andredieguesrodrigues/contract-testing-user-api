@@ -8,7 +8,7 @@ cls
 
 :: Pass the local path of provider to simulate a webhook to verify pacts (https://docs.pact.io/pact_broker/webhooks/)
 
-set path_provider=C:\Users\andrevinicius.rodrig\Desktop\docAndre\FF\Repos\employees-api\
+set path_provider=C:\<<path provider>>
 cls
 
 @echo ' --------------------- START BUILD CONSUMER SIDE ------------------------ '

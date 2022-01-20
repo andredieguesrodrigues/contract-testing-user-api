@@ -54,7 +54,7 @@ public class UserController {
 
 		if (employee.isCurrentEmployee() == true){
 			user.setId(employee.getId());
-			user.setUserName(employee.getName()+"_farfetch_pt");
+			user.setUserName(employee.getName()+"_test_pt");
 			user.setInitialPassword(generateRandomPassword(6));
 			user.setActiveUser(true);
 		}
