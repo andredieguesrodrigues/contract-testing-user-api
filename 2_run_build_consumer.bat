@@ -111,4 +111,4 @@ if errorlevel 1 (
 
 :: Return to repo dir (specify your root repo dir)
 
-cd C:\Users\andrevinicius.rodrig\Desktop\docAndre\FF\Repos\user-api
+cd C:\<<root repo dir>>
