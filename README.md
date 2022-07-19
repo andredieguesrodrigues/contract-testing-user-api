@@ -9,9 +9,9 @@ It's an API that controls the access of users in organizational context based on
 From now the API (/user) just exposes verbs GET and POST to check the employees already registered in API employees. If user exists
 as an employee, so this API will generate a system user and password for the requester.
 
-In perspective of contract testing, this API is the provider and will publish the contracts everytime that needs to deploy app.
+In perspective of contract testing, this API is the consumer and will publish the contracts everytime that needs to deploy app.
 
-It is necessary to run this application together with its consumer (employee).
+It is necessary to run this application together with its provider (employee).
 
 ## Requirements
 
